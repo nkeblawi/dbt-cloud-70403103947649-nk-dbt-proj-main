@@ -1,11 +1,13 @@
-Welcome to your new dbt project!
+Project Tools:
 
-### Using the starter project
+- dbt Cloud IDE
+- Snowflake
 
-Try running the following commands:
+Run the following commands:
 - dbt run
 - dbt test
 
+Or use -dbt build
 
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
