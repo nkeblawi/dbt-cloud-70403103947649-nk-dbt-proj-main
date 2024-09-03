@@ -1,4 +1,4 @@
-Project Tools:
+### Project Tools:
 
 - dbt Cloud IDE
 - Snowflake
