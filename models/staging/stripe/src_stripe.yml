@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: stripe
+    description: a clone of stripe data
+    database: raw
+    schema: stripe
+
+    tables:
+      - name: payment
+        description: payment database from stripe
+        loaded_at_field: _batched_at
+        freshness:
+          warn_after: { count: 1, period: day }
+          error_after: {count: 3, period: day }
